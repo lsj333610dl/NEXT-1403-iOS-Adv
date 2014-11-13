@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F0066081A02129400579260 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0066071A02129400579260 /* main.m */; };
+		1F00660B1A02129400579260 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F00660A1A02129400579260 /* AppDelegate.m */; };
+		1F00660E1A02129400579260 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F00660D1A02129400579260 /* ViewController.m */; };
+		1F0066111A02129400579260 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F00660F1A02129400579260 /* Main.storyboard */; };
+		1F0066131A02129400579260 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F0066121A02129400579260 /* Images.xcassets */; };
+		1F0066161A02129400579260 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F0066141A02129400579260 /* LaunchScreen.xib */; };
+		1F0066221A02129400579260 /* w3_SBvsXIBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0066211A02129400579260 /* w3_SBvsXIBTests.m */; };
+		1F00662C1A02138200579260 /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F00662B1A02138200579260 /* Second.storyboard */; };
+		1F00662F1A0215B900579260 /* SJTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F00662E1A0215B900579260 /* SJTableViewController.m */; };
+		1F0066331A02170900579260 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0066311A02170900579260 /* ThirdViewController.m */; };
+		1F0066341A02170900579260 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F0066321A02170900579260 /* ThirdViewController.xib */; };
+		1F0066391A021D8C00579260 /* SJCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0066361A021D8C00579260 /* SJCalendarView.m */; };
+		1F00663A1A021D8C00579260 /* SJCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0066381A021D8C00579260 /* SJCalendarViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F00661C1A02129400579260 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F0065FA1A02129400579260 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F0066011A02129400579260;
+			remoteInfo = "w3-SBvsXIB";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F0066021A02129400579260 /* w3-SBvsXIB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "w3-SBvsXIB.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F0066061A02129400579260 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F0066071A02129400579260 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F0066091A02129400579260 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1F00660A1A02129400579260 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1F00660C1A02129400579260 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1F00660D1A02129400579260 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1F0066101A02129400579260 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F0066121A02129400579260 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1F0066151A02129400579260 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1F00661B1A02129400579260 /* w3-SBvsXIBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "w3-SBvsXIBTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F0066201A02129400579260 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F0066211A02129400579260 /* w3_SBvsXIBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = w3_SBvsXIBTests.m; sourceTree = "<group>"; };
+		1F00662B1A02138200579260 /* Second.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Second.storyboard; sourceTree = "<group>"; };
+		1F00662D1A0215B900579260 /* SJTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJTableViewController.h; sourceTree = "<group>"; };
+		1F00662E1A0215B900579260 /* SJTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJTableViewController.m; sourceTree = "<group>"; };
+		1F0066301A02170900579260 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		1F0066311A02170900579260 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		1F0066321A02170900579260 /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		1F0066351A021D8C00579260 /* SJCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJCalendarView.h; sourceTree = "<group>"; };
+		1F0066361A021D8C00579260 /* SJCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJCalendarView.m; sourceTree = "<group>"; };
+		1F0066371A021D8C00579260 /* SJCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJCalendarViewController.h; sourceTree = "<group>"; };
+		1F0066381A021D8C00579260 /* SJCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJCalendarViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F0065FF1A02129400579260 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0066181A02129400579260 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F0065F91A02129400579260 = {
+			isa = PBXGroup;
+			children = (
+				1F0066041A02129400579260 /* w3-SBvsXIB */,
+				1F00661E1A02129400579260 /* w3-SBvsXIBTests */,
+				1F0066031A02129400579260 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F0066031A02129400579260 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F0066021A02129400579260 /* w3-SBvsXIB.app */,
+				1F00661B1A02129400579260 /* w3-SBvsXIBTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F0066041A02129400579260 /* w3-SBvsXIB */ = {
+			isa = PBXGroup;
+			children = (
+				1F0066091A02129400579260 /* AppDelegate.h */,
+				1F00660A1A02129400579260 /* AppDelegate.m */,
+				1F00660C1A02129400579260 /* ViewController.h */,
+				1F00660D1A02129400579260 /* ViewController.m */,
+				1F00660F1A02129400579260 /* Main.storyboard */,
+				1F00662D1A0215B900579260 /* SJTableViewController.h */,
+				1F00662E1A0215B900579260 /* SJTableViewController.m */,
+				1F00662B1A02138200579260 /* Second.storyboard */,
+				1F0066301A02170900579260 /* ThirdViewController.h */,
+				1F0066311A02170900579260 /* ThirdViewController.m */,
+				1F0066321A02170900579260 /* ThirdViewController.xib */,
+				1F0066351A021D8C00579260 /* SJCalendarView.h */,
+				1F0066361A021D8C00579260 /* SJCalendarView.m */,
+				1F0066371A021D8C00579260 /* SJCalendarViewController.h */,
+				1F0066381A021D8C00579260 /* SJCalendarViewController.m */,
+				1F0066121A02129400579260 /* Images.xcassets */,
+				1F0066141A02129400579260 /* LaunchScreen.xib */,
+				1F0066051A02129400579260 /* Supporting Files */,
+			);
+			path = "w3-SBvsXIB";
+			sourceTree = "<group>";
+		};
+		1F0066051A02129400579260 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F0066061A02129400579260 /* Info.plist */,
+				1F0066071A02129400579260 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F00661E1A02129400579260 /* w3-SBvsXIBTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F0066211A02129400579260 /* w3_SBvsXIBTests.m */,
+				1F00661F1A02129400579260 /* Supporting Files */,
+			);
+			path = "w3-SBvsXIBTests";
+			sourceTree = "<group>";
+		};
+		1F00661F1A02129400579260 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F0066201A02129400579260 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F0066011A02129400579260 /* w3-SBvsXIB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F0066251A02129400579260 /* Build configuration list for PBXNativeTarget "w3-SBvsXIB" */;
+			buildPhases = (
+				1F0065FE1A02129400579260 /* Sources */,
+				1F0065FF1A02129400579260 /* Frameworks */,
+				1F0066001A02129400579260 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "w3-SBvsXIB";
+			productName = "w3-SBvsXIB";
+			productReference = 1F0066021A02129400579260 /* w3-SBvsXIB.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F00661A1A02129400579260 /* w3-SBvsXIBTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F0066281A02129400579260 /* Build configuration list for PBXNativeTarget "w3-SBvsXIBTests" */;
+			buildPhases = (
+				1F0066171A02129400579260 /* Sources */,
+				1F0066181A02129400579260 /* Frameworks */,
+				1F0066191A02129400579260 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F00661D1A02129400579260 /* PBXTargetDependency */,
+			);
+			name = "w3-SBvsXIBTests";
+			productName = "w3-SBvsXIBTests";
+			productReference = 1F00661B1A02129400579260 /* w3-SBvsXIBTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F0065FA1A02129400579260 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = EntusApps;
+				TargetAttributes = {
+					1F0066011A02129400579260 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					1F00661A1A02129400579260 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 1F0066011A02129400579260;
+					};
+				};
+			};
+			buildConfigurationList = 1F0065FD1A02129400579260 /* Build configuration list for PBXProject "w3-SBvsXIB" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F0065F91A02129400579260;
+			productRefGroup = 1F0066031A02129400579260 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F0066011A02129400579260 /* w3-SBvsXIB */,
+				1F00661A1A02129400579260 /* w3-SBvsXIBTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F0066001A02129400579260 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F00662C1A02138200579260 /* Second.storyboard in Resources */,
+				1F0066111A02129400579260 /* Main.storyboard in Resources */,
+				1F0066161A02129400579260 /* LaunchScreen.xib in Resources */,
+				1F0066341A02170900579260 /* ThirdViewController.xib in Resources */,
+				1F0066131A02129400579260 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0066191A02129400579260 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F0065FE1A02129400579260 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F00660E1A02129400579260 /* ViewController.m in Sources */,
+				1F0066391A021D8C00579260 /* SJCalendarView.m in Sources */,
+				1F0066331A02170900579260 /* ThirdViewController.m in Sources */,
+				1F00660B1A02129400579260 /* AppDelegate.m in Sources */,
+				1F00662F1A0215B900579260 /* SJTableViewController.m in Sources */,
+				1F00663A1A021D8C00579260 /* SJCalendarViewController.m in Sources */,
+				1F0066081A02129400579260 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0066171A02129400579260 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0066221A02129400579260 /* w3_SBvsXIBTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F00661D1A02129400579260 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F0066011A02129400579260 /* w3-SBvsXIB */;
+			targetProxy = 1F00661C1A02129400579260 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F00660F1A02129400579260 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F0066101A02129400579260 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F0066141A02129400579260 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F0066151A02129400579260 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F0066231A02129400579260 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1F0066241A02129400579260 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F0066261A02129400579260 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "w3-SBvsXIB/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1F0066271A02129400579260 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "w3-SBvsXIB/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1F0066291A02129400579260 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "w3-SBvsXIBTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/w3-SBvsXIB.app/w3-SBvsXIB";
+			};
+			name = Debug;
+		};
+		1F00662A1A02129400579260 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "w3-SBvsXIBTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/w3-SBvsXIB.app/w3-SBvsXIB";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F0065FD1A02129400579260 /* Build configuration list for PBXProject "w3-SBvsXIB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F0066231A02129400579260 /* Debug */,
+				1F0066241A02129400579260 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F0066251A02129400579260 /* Build configuration list for PBXNativeTarget "w3-SBvsXIB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F0066261A02129400579260 /* Debug */,
+				1F0066271A02129400579260 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F0066281A02129400579260 /* Build configuration list for PBXNativeTarget "w3-SBvsXIBTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F0066291A02129400579260 /* Debug */,
+				1F00662A1A02129400579260 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F0065FA1A02129400579260 /* Project object */;
+}
